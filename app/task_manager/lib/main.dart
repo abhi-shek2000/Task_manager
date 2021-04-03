@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:task_manager/UI/IntrayPage.dart';
 import 'model/global.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -43,9 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
               children: [
             TabBarView(
               children: [
-                new Container(
-                  color: darkGrey,
-                ),
+                IntraPage(),
                 new Container(
                   color: Colors.lightGreen,
                 ),
