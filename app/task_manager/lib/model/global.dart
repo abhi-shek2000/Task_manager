@@ -7,5 +7,11 @@ TextStyle IntrayStyle = TextStyle(
   fontWeight: FontWeight.bold,
   color: darkGrey,
   fontSize: 40,
+);
 
+TextStyle noteTitle = TextStyle(
+  fontSize: 25,
+  fontWeight: FontWeight.bold,
+  color: darkGrey,
+  fontFamily: "Avenir",
 );

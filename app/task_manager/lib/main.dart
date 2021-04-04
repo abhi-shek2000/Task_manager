@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:task_manager/UI/IntrayPage.dart';
+import 'file:///D:/mainProjects/taskManagerApp/app/task_manager/lib/UI/InTray/IntrayPage.dart';
 import 'model/global.dart';
 
 void main() {
@@ -17,14 +17,12 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(),
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
-  final String title;
 
   @override
   _MyHomePageState createState() => _MyHomePageState();
